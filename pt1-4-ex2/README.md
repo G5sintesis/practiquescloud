@@ -248,6 +248,7 @@ terraform destroy -auto-approve
 ```
 
 ---
+<img width="1700" height="400" alt="image" src="https://github.com/user-attachments/assets/0f590cea-655a-497c-9883-35f1d3da000c" />
 
 ## ⚖️ Comparativa: Consola Gràfica (GUI) vs. Terraform (IaC)
 
