@@ -1,0 +1,40 @@
+# Directoris locals de Terraform
+**/.terraform/*
+.terraform/
+
+# Fitxers d'estat de Terraform (poden contenir dades sensibles)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Fitxers de registre d'errors
+crash.log
+crash.*.log
+
+# Fitxers de variables amb possibles credencials
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Fitxers de configuració temporal i plans d'execució
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.tfplan
+tfplan
+
+# Fitxers de configuració de la CLI
+.terraformrc
+terraform.rc
+
+# Claus privades i credencials
+*.pem
+*.key
+id_ed25519*
+AWS CLI*
+ssourl.txt
+
+# Fitxers de sistema operatiu
+.DS_Store
+Thumbs.db
